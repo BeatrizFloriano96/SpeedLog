@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(235, 230, 230);
+}
+
+input{
+    margin-top: 20px;
+}
+
+.caixa{
+    border: solid 2px black;
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 30px;
+}
