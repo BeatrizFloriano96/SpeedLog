@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/notaFiscal.css">
+    <title>SpeedLog</title>
+</head>
+<body>
+    <main>
+        <br>
+
+        <section class="Oc">
+            <div class="PesquisarOc">
+                <h3>PESQUISAR ORDEM DE COMPRA</h3>
+            </div>
+            <div>
+                <form>
+                    
+                    <label for="cnpj">CNPJ:</label>
+                    <input type="text" name="cnpj">
+                    <button type="submit">Pesquisar</button>
+
+                </form>                
+            </div>
+            <div class="tabela">
+                <table >
+                    <tr>
+                        <td>OC</td>
+                        <td>VALOR</td>
+                        <td>DATA</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>526895</td>
+                        <td>R$154,98</td>
+                        <td>03/10/21</td>
+                    </tr>
+                    <tr>
+                        <td>895356</td>
+                        <td>R$1.253,58</td>
+                        <td>03/11/21</td>
+                    </tr>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="incluirNf">
+            <div class="nf">
+                <h3>INCLUIR NOTA FISCAL</h3>
+            </div>
+            <div class="detalhesNf">
+                <form>
+                    <label for="cnpj">CNPJ:</label>
+                    <input type="text" name="cnpj">
+                    <label for="razaoSocial">RAZÃO SOCIAL:</label>
+                    <input type="text" name="razaoSocial">
+                    <label for="numero">NÚMERO:</label>
+                    <input type="text" name="numero">
+                    <label for="serie">SÉRIE:</label>
+                    <input type="text" name="serie">
+                    <label for="valorBruto">VALOR BRUTO:</label>
+                    <input type="text" name="valorBruto">
+                    <button type="submit">Salvar</button>
+                </form>
+            </div>
+        </section>
+   
+
+    </main>
+</body>
+</html>
