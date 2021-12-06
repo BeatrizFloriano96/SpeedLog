@@ -67,7 +67,7 @@ h1{
 .label-float input:focus + label{
     font-size: 12px;
     margin-top: 0;
-    color: black);
+    color: black;
 }
 
 button{
