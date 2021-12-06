@@ -1,0 +1,30 @@
+body{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    /*background-color: #ffffff30;*/
+    padding: 40px;
+    /*border-radius: 8%;
+    box-shadow: 3px 3px 1px 0 #00000050;*/
+    width: 60%;
+}
+
+.busca{
+    display: inline;
+}
+
+input{
+    width: 30%;
+}
+
+.infos{
+    border: 1px solid black;
+    width: 70%;
+    height: 100px;
+    background-color: #dad8d8;
+}
